@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="mongo">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/mongo-java-driver-3.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/mongo-mapper-1.0.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
