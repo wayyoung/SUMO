@@ -40,7 +40,7 @@ public class FilterToMarkConnectionIndex extends SumoMongo{
 		AggregateIterable<Document> mitr=mcol.aggregate(Arrays.asList(
 				match(text("proxyDisconnnected proxyConnected")),
 				sort(orderBy(ascending("mtime"),descending("messageid")))
-			));
+			)).allowDiskUse(true);
 		System.out.println("Aggregate Done!!");
 
 		connectionIndex=1;

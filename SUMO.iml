@@ -30,5 +30,10 @@
     <orderEntry type="library" name="commons-codec-1.11" level="project" />
     <orderEntry type="library" name="commons-logging-1.2" level="project" />
     <orderEntry type="library" name="httpcore-4.4.9" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-8.0.11" level="project" />
+    <orderEntry type="library" name="jcabi-jdbc-0.17" level="project" />
+    <orderEntry type="library" name="bonecp-0.8.0" level="project" />
+    <orderEntry type="library" name="fluentjdbc-1.8.3" level="project" />
+    <orderEntry type="library" name="slf4j-simple-1.7.25" level="project" />
   </component>
 </module>

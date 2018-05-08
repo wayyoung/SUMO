@@ -6,9 +6,7 @@ import sumo.analysis.SumoMongo;
 
 import java.io.*;
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
-import java.util.Calendar;
-import java.util.TimeZone;
+import java.util.*;
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -20,6 +18,7 @@ import static com.mongodb.client.model.Filters.*;
 import static com.mongodb.client.model.Sorts.*;
 import static com.mongodb.client.model.Updates.*;
 import static com.mongodb.client.model.Projections.*;
+import static com.mongodb.client.model.Accumulators.*;
 
 
 
@@ -43,10 +42,23 @@ public class QueryProxyConnection extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
         String s = req.getParameter("sourcename");
+        String st=req.getParameter("st");
+        String et=req.getParameter("et");
+        System.out.println("source: "+s+" st:"+st+" et:"+et);
         Calendar now=Calendar.getInstance(TimeZone.getTimeZone("UTC"));
         java.util.Date edate=now.getTime();
-        now.add(Calendar.DATE,-7);
+        now.add(Calendar.DAY_OF_MONTH,-7);
         java.util.Date sdate=now.getTime();
+
+        if(st!=null&&et!=null){
+            try {
+                sdate = sdf.parse(st);
+                edate = sdf.parse(et);
+            }catch(Exception ex){
+                ex.printStackTrace();
+            }
+        }
+
         resp.setContentType("application/json");
         resp.setHeader("Access-Control-Allow-Origin", "*");
 
@@ -108,9 +120,23 @@ public class QueryProxyConnection extends HttpServlet {
         //req.getRequestDispatcher("hello.jsp").forward(req, resp);
     }
 
+    Block<Document> printBlock = new Block<Document>() {
+        @Override
+        public void apply(final Document document) {
+            System.out.println(document.toJson());
+        }
+    };
+
+
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
         doGet(req,resp);
+    }
+
+    public static void main(String[] args)throws Exception{
+//        QueryProxyConnection qc=new QueryProxyConnection();
+//        SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+//        qc.queryProxyDisconnectedSortedMap(sdf.parse("2018-05-01 00:00:00"),sdf.parse("2018-05-07 00:00:00"));
     }
 }

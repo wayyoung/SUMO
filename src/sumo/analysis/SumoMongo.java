@@ -1,9 +1,17 @@
 package sumo.analysis;
 
+import static com.mongodb.client.model.Accumulators.sum;
+import static com.mongodb.client.model.Aggregates.group;
+import static com.mongodb.client.model.Aggregates.match;
+import static com.mongodb.client.model.Aggregates.project;
+import static com.mongodb.client.model.Filters.*;
+import static com.mongodb.client.model.Projections.fields;
+import static com.mongodb.client.model.Projections.include;
 import static org.bson.codecs.configuration.CodecRegistries.fromProviders;
 import static org.bson.codecs.configuration.CodecRegistries.fromRegistries;
 
-import java.util.TreeSet;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 import org.bson.Document;
 import org.bson.codecs.configuration.CodecRegistry;
@@ -18,6 +26,7 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.model.IndexOptions;
 import com.mongodb.client.model.Indexes;
+import sumo.analysis.servlet.QueryProxyConnection;
 
 public class SumoMongo {
 	
@@ -33,8 +42,13 @@ public class SumoMongo {
 	
 	protected MongoClient mclient=null;
 	protected MongoDatabase mdb=null;
-	
-	
+
+	Block<Document> printBlock = new Block<Document>() {
+		@Override
+		public void apply(final Document document) {
+			System.out.println(document.toJson());
+		}
+	};
 	
 	public void init() {
 		// Create a CodecRegistry containing the PojoCodecProvider instance.
@@ -124,6 +138,57 @@ public class SumoMongo {
 	public static void main(String[] args)throws Exception{
 		SumoMongo sm=new SumoMongo();
 		sm.init();
-		sm.querySourcenameList().forEach((v)->{System.out.println(v);});
+		SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		sm.queryProxyDisconnectedSortedMap(sdf.parse("2018-05-03 00:00:00"),sdf.parse("2018-05-08 00:00:00"));
+//		sm.querySourcenameList().forEach((v)->{System.out.println(v);});
 	}
+
+
+	public  static <K, V extends Comparable<? super V>> Map<K, V> sortByValue(Map<K, V> map, boolean ascending) {
+		List<Map.Entry<K, V>> list = new ArrayList<>(map.entrySet());
+		list.sort(Map.Entry.comparingByValue());
+
+		Map<K, V> result = new LinkedHashMap<>();
+		if(ascending){
+			for (Map.Entry<K, V> entry : list) {
+				result.put(entry.getKey(), entry.getValue());
+			}
+		}else{
+			int index=list.size();
+			for(;index>0;index--){
+				Map.Entry<K, V> entry=list.get(index-1);
+				result.put(entry.getKey(), entry.getValue());
+			}
+		}
+
+		return result;
+	}
+
+	public TreeMap<String,Integer> queryProxyDisconnectedSortedMap(Date start, Date end){
+		TreeMap<String,Integer> tm=new TreeMap<String,Integer>();
+		for(String s: this.querySourcenameList()){
+			tm.put(s,0);
+			this.getColletionBySourcename(s).aggregate(Arrays.asList(
+					match(and(exists("connectionIndex"),gte("mtime",start),lt("mtime",end))),
+					project(fields(include("connectionIndex"))),
+					group("$connectionIndex"),
+					group(1,sum("count",1))
+			)).forEach(new Block<Document>() {
+				@Override
+				public void apply(final Document document) {
+					tm.put(s,document.getInteger("count"));
+				}
+			});
+
+
+	//                    sort(orderBy(ascending("mtime"),descending("messageid"))),
+	//                    project(fields(include("mtime"),include("connectionIndex")))
+		}
+
+		this.sortByValue(tm,false).forEach((k,v)->{System.out.println(k+":"+v);});
+
+		return tm;
+	}
+
+
 }
