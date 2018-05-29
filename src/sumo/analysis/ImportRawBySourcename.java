@@ -53,6 +53,7 @@ public class ImportRawBySourcename extends SumoMySQL {
 		
 		JdbcSession jcse=new JdbcSession(dataSource);
 		jcse.autocommit(false);
+		boolean commitRequired=false;
 		while((tk=jp.nextToken())!=null && (!tk.equals(JsonToken.END_OBJECT))) {
 			if(JsonToken.START_ARRAY.equals(tk)) {tk=jp.nextToken();}
 			if(tk.equals(JsonToken.END_ARRAY)) {continue;}
@@ -107,6 +108,7 @@ public class ImportRawBySourcename extends SumoMySQL {
 							.set(new java.sql.Date(msg.getRtime().getTime()))
 							.set(msg.getRaw())
 							.update(new SingleOutcome<Long>(Long.class));
+					commitRequired=true;
 					if(enableMessageidCacheFilter) {
 						existedMsgIdSet.add(msg.getMessageid());
 					}
@@ -121,8 +123,19 @@ public class ImportRawBySourcename extends SumoMySQL {
 				abandoned++;
 			}
 			count++;
-			if(0==count%10000){LOGGER.log(Level.INFO,"  count="+count+(0==tc?"":("/"+tc))+", inserted="+inserted); if(inserted > 0){ jcse.commit();}}
+			if(0==count%10000) {
+				if(commitRequired) {
+					jcse.commit();
+					commitRequired=false;
+				}
+				LOGGER.log(Level.INFO, "  count=" + count + (0 == tc ? "" : ("/" + tc)) + ", inserted=" + inserted);
+			}
 		}
+		if(commitRequired) {
+			jcse.commit();
+			commitRequired=false;
+		}
+
 		LOGGER.log(Level.INFO,"  count="+count+(0==tc?"":("/"+tc))+", inserted="+inserted+", abandoned="+abandoned);
 		LOGGER.log(Level.INFO,"Import "+fname+" finished.\n");
 	}

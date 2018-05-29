@@ -23,10 +23,30 @@
       <file leaf-file-name="SumoExport.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sumo/SumoExport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="294" column="30" selection-start-line="294" selection-start-column="30" selection-end-line="294" selection-end-column="30" />
+            <state relative-caret-position="689">
+              <caret line="233" column="13" lean-forward="true" selection-start-line="197" selection-start-column="11" selection-end-line="233" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryAgent.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sumo/wifi/QueryAgent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="232" column="18" lean-forward="true" selection-start-line="232" selection-start-column="18" selection-end-line="232" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1394#1395#0" expanded="true" />
+                <element signature="e#1428#1429#0" expanded="true" />
+                <element signature="e#1482#1483#0" expanded="true" />
+                <element signature="e#1528#1529#0" expanded="true" />
+                <element signature="e#1337#1338#0" expanded="true" />
+                <element signature="e#1356#1357#0" expanded="true" />
+                <element signature="e#1452#1453#0" expanded="true" />
+                <element signature="e#1483#1484#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,7 +55,7 @@
       <file leaf-file-name="ImportRawToSourcename.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sumo/analysis/ImportRawToSourcename.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
+            <state relative-caret-position="570">
               <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -44,14 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImportRawBySourcename.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ImportRawBySourcename.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sumo/analysis/ImportRawBySourcename.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1099">
-              <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
-              <folding>
-                <element signature="e#2645#2651#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1275">
+              <caret line="113" column="21" lean-forward="true" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -59,7 +76,7 @@
       <file leaf-file-name="JdbcSession.class" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/jcabi-jdbc-0.17.jar!/com/jcabi/jdbc/JdbcSession.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
+            <state relative-caret-position="915">
               <caret line="75" selection-start-line="75" selection-end-line="75" />
             </state>
           </provider>
@@ -68,28 +85,8 @@
       <file leaf-file-name="SumoMySQL.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sumo/analysis/SumoMySQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="2040">
               <caret line="178" column="52" selection-start-line="178" selection-start-column="52" selection-end-line="178" selection-end-column="52" />
-              <folding>
-                <element signature="e#4523#4524#0" expanded="true" />
-                <element signature="e#4543#4544#0" expanded="true" />
-                <element signature="e#4584#4585#0" expanded="true" />
-                <element signature="e#4611#4612#0" expanded="true" />
-                <element signature="e#4643#4644#0" expanded="true" />
-                <element signature="e#4665#4666#0" expanded="true" />
-                <element signature="e#4710#4711#0" expanded="true" />
-                <element signature="e#4741#4742#0" expanded="true" />
-                <element signature="e#4773#4774#0" expanded="true" />
-                <element signature="e#4795#4796#0" expanded="true" />
-                <element signature="e#4840#4841#0" expanded="true" />
-                <element signature="e#4871#4872#0" expanded="true" />
-                <element signature="e#4898#4899#0" expanded="true" />
-                <element signature="e#4915#4916#0" expanded="true" />
-                <element signature="e#4950#4951#0" expanded="true" />
-                <element signature="e#4971#4972#0" expanded="true" />
-                <element signature="e#4370#4378#0" expanded="true" />
-                <element signature="e#4462#4478#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -97,7 +94,7 @@
       <file leaf-file-name="FilterToMarkConnectionIndex.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sumo/analysis/FilterToMarkConnectionIndex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-798">
+            <state relative-caret-position="360">
               <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -109,7 +106,7 @@
       <file leaf-file-name="QueryProxyConnection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sumo/analysis/servlet/QueryProxyConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="270">
               <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -121,7 +118,7 @@
       <file leaf-file-name="SumoMongo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sumo/analysis/SumoMongo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="315">
               <caret line="47" column="16" selection-start-line="44" selection-end-line="47" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -135,7 +132,7 @@
       <file leaf-file-name="SumoMessage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sumo/analysis/SumoMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-145">
+            <state relative-caret-position="2730">
               <caret line="234" column="26" selection-start-line="234" selection-start-column="26" selection-end-line="234" selection-end-column="26" />
               <folding>
                 <element signature="e#5678#5679#0" expanded="true" />
@@ -159,9 +156,10 @@
     <findStrings>
       <find>sdf</find>
       <find>yMd</find>
-      <find />
+      <find>Search job ID</find>
       <find>`</find>
       <find>'</find>
+      <find>TreeMap result\=new TreeMap\&lt;String\,Date\&gt;\(\)\;\n        ObjectMapper objectMapper\=new ObjectMapper\(\)\;\n        objectMapper\.enable\(SerializationFeature\.INDENT_OUTPUT\)\;\n\n        try\{\n            String query\=\&quot;_sourceName\=\&quot;\+sourcename\+\&quot; \\\&quot;suspend entry\\\&quot; \| first\(_messagetime\) group by fw_version \| formatDate\(_first\,\\\&quot;yyyyMMdd\'T\'HH\:mm\:ss\'Z\'\\\&quot;\,\\\&quot;UTC\\\&quot;\) as start \| sort by fw_version asc\&quot;\;\n            String searchJobId \= sumoClient\.createSearchJob\( query\,isosdf\.format\(startTime\)\,isosdf\.format\(endTime\)\, \&quot;UTC\&quot;\)\;\n            GetSearchJobStatusResponse getSearchJobStatusResponse \= null\;\n            int messageCount \= 0\;\n            System\.out\.println\(\&quot;S\-E\: \&quot;\+isosdf\.format\(startTime\)\+\&quot;\-\&quot;\+isosdf\.format\(endTime\)\)\;\n            System\.out\.println\(\&quot;query\: \&quot;\+query\)\;\n        while \(getSearchJobStatusResponse \=\= null \|\|\n                \(\!getSearchJobStatusResponse\.getState\(\)\.equals\(\&quot;DONE GATHERING RESULTS\&quot;\) \&amp;\&amp;\n                        \!getSearchJobStatusResponse\.getState\(\)\.equals\(\&quot;CANCELLED\&quot;\)\)\) \{\n\n            \/\/ Sleep for a little bit\, so we don\'t hammer\n            \/\/ the Sumo Logic service\.\n            Thread\.sleep\(1000\)\;\n\n            \/\/ Get the latest search job status\.\n            getSearchJobStatusResponse \= sumoClient\.getSearchJobStatus\(searchJobId\)\;\n\n            \/\/ Extract the message and record counts for\n            \/\/ using them later down the road\.\n            messageCount \= getSearchJobStatusResponse\.getMessageCount\(\)\;\n\n\n            \/\/ Tell the user what\'s going on\. Class\n            \/\/ GetSearchJobStatusResponse has a nice toString\(\)\n            \/\/ implementation that will show the status and\n            \/\/ the message and record counts\.\n            if\(messageCount\&gt;0\) \{\n                System\.out\.printf\(\n                        \&quot;Search job ID\: \'\%s\'\, \%s\\n\&quot;\,\n                        searchJobId\,\n                        getSearchJobStatusResponse\)\;\n            \}\n        \}\n        \} catch \(Throwable t\) \{\n\n            \/\/ Yikes\. We has an error\.\n            t\.printStackTrace\(\)\;\n\n        \} finally \{\n\n            try \{\n                sumoClient\.cancelSearchJob\(searchJobId\)\;\n\n            \} catch \(Throwable t\) \{\n                System\.out\.printf\(\&quot;Error cancelling search job\: \'\%s\'\&quot;\, t\.getMessage\(\)\)\;\n                \/\/t\.printStackTrace\(\)\;\n            \}\n        \}\n\n\n\n        return result\;\n    \}</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -190,8 +188,11 @@
         <option value="$PROJECT_DIR$/src/sumo/analysis/SumoMongo.java" />
         <option value="$PROJECT_DIR$/src/sumo/analysis/servlet/QueryProxyConnection.java" />
         <option value="$PROJECT_DIR$/src/sumo/DataExportImportHelper.java" />
-        <option value="$PROJECT_DIR$/src/sumo/analysis/ImportRawBySourcename.java" />
         <option value="$PROJECT_DIR$/src/sumo/analysis/SumoMySQL.java" />
+        <option value="$PROJECT_DIR$/src/sumo/analysis/ImportRawBySourcename.java" />
+        <option value="$PROJECT_DIR$/src/sumo/WIFI_QueryAgent.java" />
+        <option value="$PROJECT_DIR$/src/sumo/wifi/WIFI_QueryAgent.java" />
+        <option value="$PROJECT_DIR$/src/sumo/wifi/QueryAgent.java" />
       </list>
     </option>
   </component>
@@ -212,10 +213,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="143" />
-    <option name="y" value="67" />
-    <option name="width" value="1598" />
-    <option name="height" value="898" />
+    <option name="x" value="179" />
+    <option name="y" value="283" />
+    <option name="width" value="1200" />
+    <option name="height" value="617" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -223,8 +224,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -249,25 +248,12 @@
               <item name="SUMO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sumo" type="462c0819:PsiDirectoryNode" />
-              <item name="analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="wifi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SUMO" type="b2602c69:ProjectViewProjectNode" />
               <item name="SUMO" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SUMO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SUMO" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SUMO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SUMO" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SUMO" type="b2602c69:ProjectViewProjectNode" />
@@ -282,6 +268,8 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,14 +309,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ImportRawBySourcename">
+  <component name="RunManager" selected="Application.QueryAgent">
     <configuration name="DataExportImportHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sumo.DataExportImportHelper" />
       <module name="SUMO" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sumo.*" />
+          <option name="PATTERN" value="sumo.wifi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -344,13 +332,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="QueryProxyConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sumo.analysis.servlet.QueryProxyConnection" />
+    <configuration name="QueryAgent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sumo.wifi.QueryAgent" />
       <module name="SUMO" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sumo.analysis.servlet.*" />
+          <option name="PATTERN" value="sumo.wifi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -585,19 +573,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Web" />
-      <item itemvalue="Application.QueryProxyConnection" />
       <item itemvalue="Application.SumoMongo" />
       <item itemvalue="Application.DataExportImportHelper" />
       <item itemvalue="Application.SumoMySQL" />
       <item itemvalue="Application.ImportRawBySourcename" />
+      <item itemvalue="Application.QueryAgent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueryAgent" />
         <item itemvalue="Application.ImportRawBySourcename" />
         <item itemvalue="Application.SumoMySQL" />
         <item itemvalue="Application.DataExportImportHelper" />
         <item itemvalue="Application.SumoMongo" />
-        <item itemvalue="Application.QueryProxyConnection" />
       </list>
     </recent_temporary>
   </component>
@@ -620,47 +608,49 @@
       <workItem from="1525703964623" duration="785000" />
       <workItem from="1525745543418" duration="925000" />
       <workItem from="1525747063927" duration="5238000" />
-      <workItem from="1525769780381" duration="17412000" />
+      <workItem from="1525769780381" duration="20504000" />
+      <workItem from="1525848147599" duration="633000" />
+      <workItem from="1527570568581" duration="6792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85539000" />
+    <option name="totallyTimeSpent" value="96056000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="143" y="67" width="1598" height="898" extended-state="0" />
+    <frame x="-4" y="-4" width="1608" height="908" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32938075" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3282981" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32938075" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42627013" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4271482" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2610063" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.259375" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32841328" />
       <window_info id="Learn" order="5" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.113507375" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32841328" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -670,16 +660,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/dview.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/serial.json" />
     <entry file="file://$PROJECT_DIR$/src/sumo/analysis/servlet/QueryProxyConnection.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -761,13 +741,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sumo/analysis/QuerySourceName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="76" column="22" selection-start-line="71" selection-start-column="29" selection-end-line="76" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumo/analysis/QuerySourceName.java" />
     <entry file="file://$PROJECT_DIR$/src/sumo/analysis/ImportRawToSourcename.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -809,13 +783,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sumo/analysis/ImportRawToSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="80" column="17" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumo/analysis/ImportRawToSource.java" />
     <entry file="file://$PROJECT_DIR$/src/sumo/analysis/servlet/QueryProxyConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
@@ -833,13 +801,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sumo/analysis/QuerySourceName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumo/analysis/QuerySourceName.java" />
     <entry file="file://$PROJECT_DIR$/src/sumo/analysis/SumoMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -873,13 +835,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sumo/analysis/ImportRawToSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="80" column="17" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumo/analysis/ImportRawToSource.java" />
     <entry file="file://$PROJECT_DIR$/src/sumo/analysis/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -911,13 +867,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sumo/analysis/ImportRawToSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="80" column="17" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumo/analysis/ImportRawToSource.java" />
     <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/mongo-java-driver-3.6.3.jar!/com/mongodb/client/model/Filters.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -966,20 +916,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sumo/analysis/servlet/QueryProxyDisconnectedCount.java" />
-    <entry file="file://$PROJECT_DIR$/src/sumo/DataExportImportHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="48" column="58" selection-start-line="23" selection-start-column="3" selection-end-line="48" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#301#323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumo/DataExportImportHelper.java" />
     <entry file="file://$PROJECT_DIR$/src/sumo/analysis/servlet/QueryProxyConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="270">
           <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -989,7 +929,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sumo/analysis/ImportRawToSourcename.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
+        <state relative-caret-position="570">
           <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -997,16 +937,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sumo/analysis/QuerySourceName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumo/analysis/QuerySourceName.java" />
     <entry file="file://$PROJECT_DIR$/src/sumo/analysis/FilterToMarkConnectionIndex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-798">
+        <state relative-caret-position="360">
           <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1016,7 +950,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sumo/analysis/SumoMongo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="315">
           <caret line="47" column="16" selection-start-line="44" selection-end-line="47" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1028,7 +962,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sumo/analysis/SumoMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
+        <state relative-caret-position="2730">
           <caret line="234" column="26" selection-start-line="234" selection-start-column="26" selection-end-line="234" selection-end-column="26" />
           <folding>
             <element signature="e#5678#5679#0" expanded="true" />
@@ -1037,56 +971,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sumo/SumoExport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="294" column="30" selection-start-line="294" selection-start-column="30" selection-end-line="294" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/jcabi-jdbc-0.17.jar!/com/jcabi/jdbc/JdbcSession.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
+        <state relative-caret-position="915">
           <caret line="75" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sumo/analysis/SumoMySQL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="2040">
           <caret line="178" column="52" selection-start-line="178" selection-start-column="52" selection-end-line="178" selection-end-column="52" />
-          <folding>
-            <element signature="e#4523#4524#0" expanded="true" />
-            <element signature="e#4543#4544#0" expanded="true" />
-            <element signature="e#4584#4585#0" expanded="true" />
-            <element signature="e#4611#4612#0" expanded="true" />
-            <element signature="e#4643#4644#0" expanded="true" />
-            <element signature="e#4665#4666#0" expanded="true" />
-            <element signature="e#4710#4711#0" expanded="true" />
-            <element signature="e#4741#4742#0" expanded="true" />
-            <element signature="e#4773#4774#0" expanded="true" />
-            <element signature="e#4795#4796#0" expanded="true" />
-            <element signature="e#4840#4841#0" expanded="true" />
-            <element signature="e#4871#4872#0" expanded="true" />
-            <element signature="e#4898#4899#0" expanded="true" />
-            <element signature="e#4915#4916#0" expanded="true" />
-            <element signature="e#4950#4951#0" expanded="true" />
-            <element signature="e#4971#4972#0" expanded="true" />
-            <element signature="e#4370#4378#0" expanded="true" />
-            <element signature="e#4462#4478#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sumo/analysis/ImportRawBySourcename.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1099">
-          <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+        <state relative-caret-position="1275">
+          <caret line="113" column="21" lean-forward="true" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumo/SumoExport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="233" column="13" lean-forward="true" selection-start-line="197" selection-start-column="11" selection-end-line="233" selection-end-column="13" />
           <folding>
-            <element signature="e#2645#2651#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumo/wifi/QueryAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="232" column="18" lean-forward="true" selection-start-line="232" selection-start-column="18" selection-end-line="232" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+            <element signature="e#1482#1483#0" expanded="true" />
+            <element signature="e#1528#1529#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="e#1483#1484#0" expanded="true" />
           </folding>
         </state>
       </provider>
